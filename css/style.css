@@ -903,6 +903,16 @@ body.ie .ibg img {
 		z-index: 2;
 	}
 }
+@media (max-width: 1185px) {
+	.header__top {
+		padding: 0 12px;
+	}
+}
+@media (max-width: 990px) {
+	.header__top {
+		padding: 0 0px;
+	}
+}
 .header_fixed {
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -1156,6 +1166,11 @@ body.ie .ibg img {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+}
+@media (max-width: 320px) {
+	.scroll {
+		padding: 0px 0px 30px 0px;
+	}
 }
 .scroll__text {
 	color: #ffffff;
