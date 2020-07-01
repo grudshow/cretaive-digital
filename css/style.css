@@ -1161,10 +1161,6 @@ body.ie .ibg img {
 		line-height: 25px;
 	}
 }
-.body-header__scroll {
-	border: 1px solid red;
-}
-
 .scroll {
 	display: -webkit-box;
 	display: -ms-flexbox;
